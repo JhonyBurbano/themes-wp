@@ -26,3 +26,60 @@ img{
 .title{
     text-transform: capitalize;
 }
+
+section{
+    grid-area: my-section;
+    display: grid;
+    align-content: center;
+    justify-items: center;
+}
+
+.opacidad_img_btn {
+    opacity: 0.2;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+.img_cepillos{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img_btn_1, #img_btn_2{
+    cursor: pointer;
+}
+
+
+@media (max-width: 680px) and (min-width: 0px){
+    .new_video {
+        position: relative;
+        padding-bottom: 56.25%;
+        /* padding-top: 30px; */
+        height: 0;
+        overflow: hidden;
+    }
+    .new_video iframe, .new_video object, .new_video embed {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+}
+
+@media only screen and (max-width: 485px) {
+    header{
+        width: 100%;
+        text-align: center;
+    }
+
+    .logo {
+        width: 100%;
+        height: auto;
+    }
+
+    /* .img_cepillos{
+        width: 100%;
+        height: auto;
+    } */
+}
