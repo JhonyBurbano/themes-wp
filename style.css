@@ -1,0 +1,24 @@
+/* 
+Theme Name: Prueba_AXIGNA
+Theme URI: www.xxxx.com
+Description: Este tema se realiza como prueba
+Version: 1
+Author: auto
+Author URL: direccion web del autor
+*/
+
+/* ------ Estilos Generales ------ */
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-size:12pt;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header, section, footer{
+    width: 100%;
+}
