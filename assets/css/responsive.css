@@ -1,0 +1,28 @@
+main{
+    color: white;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas:
+    "my-header my-header my-header"
+    "my-section my-section my-section"
+    /* "my-footer my-footer my-footer" */
+}
+
+header{
+    background: dodgerblue;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    grid-area: my-header;
+}
+
+img{
+    padding: 25px 15px;
+}
+
+.title{
+    text-transform: capitalize;
+}
